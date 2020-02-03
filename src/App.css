@@ -1,0 +1,190 @@
+.app-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.app-title {
+  text-transform: uppercase;
+  background-color: teal;
+  width: 50%;
+  text-align: center;
+  border-top: 2px solid rgb(133, 30, 30);
+  border-bottom: 2px solid rgb(124, 30, 30);
+  margin-bottom: 25px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+
+.app-content {
+  width: 95%;
+  /* background-color: rgb(184, 58, 64); */
+  border-top: groove 20px rgb(184, 58, 64);
+  border-bottom: groove 20px rgb(184, 58, 64);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.app-timer-setting {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-timer-display {
+  position: absolute;
+}
+
+.setting-container {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-container#break-setting {
+  margin-left: 150px;
+}
+
+.setting-container#session-setting {
+  margin-right: 150px;
+}
+
+.setting-button {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.setting-button:hover {
+  background-color: whitesmoke;
+  color: rgb(184, 58, 64);
+}
+
+.setting-button:focus {
+  outline: none;
+}
+
+.setting-container #break-increment,
+.setting-container #session-increment {
+  margin-bottom: 35px;
+}
+
+.setting-container #break-decrement,
+.setting-container #session-decrement {
+  margin-top: 35px;
+}
+
+.label {
+  color: whitesmoke;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.setting-time {
+  position: absolute;
+  display: block;
+  font-size: 3.5rem;
+  width: 100px;
+  bottom: -100%;
+}
+
+.setting-time#break-length {
+  left: 21.5%;
+}
+
+.setting-time#session-length {
+  left: 23%;
+}
+
+.app-timer-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: whitesmoke;
+}
+
+#timer-label {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+#time-left {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: justify;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+  position: relative;
+  margin: 20px 6px;
+}
+
+#time-left::after {
+  content: ':';
+  position: absolute;
+  right: 47.5%;
+  top: 28%;
+  font-size: 2rem;
+}
+
+.timer-buttons {
+  position: absolute;
+  bottom: -55%;
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-button {
+  background-color: transparent;
+  border: none;
+  margin: 15px 35px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  cursor: pointer;
+  border: 3.5px solid whitesmoke;
+  border-radius: 50%;
+  padding: 15px 18px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.timer-button:hover {
+  background-color: whitesmoke;
+  color: teal;
+}
+
+button:disabled {
+  color: rgb(170, 170, 170);
+}
+
+button:disabled:hover {
+  color: rgb(170, 170, 170);
+  background-color: transparent;
+  cursor: auto;
+}
