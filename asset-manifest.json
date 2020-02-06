@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FCC-podomoroclock/static/css/main.fd837532.chunk.css",
+    "main.js": "/FCC-podomoroclock/static/js/main.90471910.chunk.js",
+    "main.js.map": "/FCC-podomoroclock/static/js/main.90471910.chunk.js.map",
+    "runtime-main.js": "/FCC-podomoroclock/static/js/runtime-main.45aa9186.js",
+    "runtime-main.js.map": "/FCC-podomoroclock/static/js/runtime-main.45aa9186.js.map",
+    "static/js/2.f5345514.chunk.js": "/FCC-podomoroclock/static/js/2.f5345514.chunk.js",
+    "static/js/2.f5345514.chunk.js.map": "/FCC-podomoroclock/static/js/2.f5345514.chunk.js.map",
+    "index.html": "/FCC-podomoroclock/index.html",
+    "precache-manifest.261a68cf045ce6a1c84f468025a68885.js": "/FCC-podomoroclock/precache-manifest.261a68cf045ce6a1c84f468025a68885.js",
+    "service-worker.js": "/FCC-podomoroclock/service-worker.js",
+    "static/css/main.fd837532.chunk.css.map": "/FCC-podomoroclock/static/css/main.fd837532.chunk.css.map",
+    "static/js/2.f5345514.chunk.js.LICENSE.txt": "/FCC-podomoroclock/static/js/2.f5345514.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45aa9186.js",
+    "static/js/2.f5345514.chunk.js",
+    "static/css/main.fd837532.chunk.css",
+    "static/js/main.90471910.chunk.js"
+  ]
+}
